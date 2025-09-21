@@ -6,8 +6,8 @@ MACHINE := lm3s6965evb
 
 CMSIS ?= ./CMSIS_5
 # Use QEMU_PATH= if QEMU was installed through the apt-get command.
-QEMU_PATH ?= ./qemu/arm-softmmu/
-TOOLCHAIN ?= ./gcc-arm-none-eabi-9-2019-q4-major/bin/
+QEMU_PATH ?= /usr/local/bin/
+TOOLCHAIN ?= /home/xsy/bin/gcc-arm-none-eabi/bin/
 
 QEMU_COMMAND := $(QEMU_PATH)qemu-system-arm
 

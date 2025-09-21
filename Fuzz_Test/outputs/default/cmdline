@@ -1,0 +1,11 @@
+qemu-system-arm
+-machine
+lm3s6965evb
+-cpu
+cortex-m3
+-nographic
+-semihosting
+-device
+loader,file=target.elf
+-device
+loader,file=@@,addr=0x20000100

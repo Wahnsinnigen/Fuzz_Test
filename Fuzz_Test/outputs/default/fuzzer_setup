@@ -1,0 +1,6 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=qemu-system-arm
+AFL_CUSTOM_INFO_PROGRAM_ARGV=-machine lm3s6965evb -cpu cortex-m3 -nographic -semihosting -device loader,file=target.elf -device loader,file=@@,addr=0x20000100
+AFL_CUSTOM_INFO_OUT=outputs/default
+# command line:
+'afl-fuzz' '-Q' '-i' 'inputs' '-o' 'outputs' '--' 'qemu-system-arm' '-machine' 'lm3s6965evb' '-cpu' 'cortex-m3' '-nographic' '-semihosting' '-device' 'loader,file=target.elf' '-device' 'loader,file=@@,addr=0x20000100'

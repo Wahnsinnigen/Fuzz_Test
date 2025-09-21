@@ -1,0 +1,21 @@
+# build artifacts
+*.o
+*.elf         
+*.map
+*.bin
+
+# logs and traces (we keep only short/sanitized excerpts in docs/)
+docs/qemu_strace.log
+*.log
+qemu.log
+qemu_withserial.log
+
+# editor files
+*.swp
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+

@@ -1,0 +1,8 @@
+{
+  "time": "20250920_225048",
+  "pc": null,
+  "sp": null,
+  "seed": "/full/path/to/seed_file",
+  "reason": "cannot_read_pc",
+  "handler_hits": []
+}

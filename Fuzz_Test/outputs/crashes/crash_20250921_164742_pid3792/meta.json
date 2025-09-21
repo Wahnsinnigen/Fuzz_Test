@@ -1,0 +1,22 @@
+{
+  "timestamp": "20250921_164742",
+  "reason": "cannot_read_pc",
+  "regs": {
+    "pc": null,
+    "sp": null,
+    "lr": null,
+    "r0": null,
+    "r1": null,
+    "r2": null,
+    "r3": null,
+    "r4": null,
+    "r5": null,
+    "r6": null,
+    "r7": null,
+    "r8": null,
+    "r9": null,
+    "r10": null,
+    "r11": null,
+    "r12": null
+  }
+}

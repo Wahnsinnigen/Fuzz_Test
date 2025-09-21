@@ -1,0 +1,24 @@
+=== Host info ===
+Linux xsy-VirtualBox 6.11.0-25-generic #25~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 17:20:50 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+=== QEMU ===
+QEMU emulator version 9.1.1
+Copyright (c) 2003-2024 Fabrice Bellard and the QEMU Project developers
+
+=== arm-none-eabi-gcc ===
+arm-none-eabi-gcc (15:13.2.rel1-2) 13.2.1 20231009
+
+=== gdb-multiarch ===
+GNU gdb (Ubuntu 15.0.50.20240403-0ubuntu1) 15.0.50.20240403-git
+
+=== netcat ===
+nc: invalid option -- '-'
+usage: nc [-46CDdFhklNnrStUuvZz] [-I length] [-i interval] [-M ttl]
+	  [-m minttl] [-O length] [-P proxy_username] [-p source_port]
+	  [-q seconds] [-s sourceaddr] [-T keyword] [-V rtable] [-W recvlimit]
+	  [-w timeout] [-X proxy_protocol] [-x proxy_address[:port]]
+	  [destination] [port]
+OpenBSD netcat (Debian patchlevel 1.226-1ubuntu2)
+
+=== Git commit ===
+6e45baa

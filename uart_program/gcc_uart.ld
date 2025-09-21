@@ -1,5 +1,5 @@
 /******************************************************************************
- * @file     gcc_arm.ld
+ * @file     gcc_uart.ld
  * @brief    GNU Linker Script for Cortex-M based device
  * @version  V2.0.0
  * @date     21. May 2019
@@ -94,7 +94,7 @@ MEMORY
  *   __stack
  */
 ENTRY(Reset_Handler)
-PROVIDE(_start = Reset_Handler);
+PROVIDE(_start = main);
 
 SECTIONS
 {

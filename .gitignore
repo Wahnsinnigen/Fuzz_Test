@@ -1,52 +1,21 @@
-# Prerequisites
-*.d
-
-# Object files
+# build artifacts
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
+*.elf         
 *.map
-*.exp
+*.bin
 
-# Precompiled Headers
-*.gch
-*.pch
+# logs and traces (we keep only short/sanitized excerpts in docs/)
+docs/qemu_strace.log
+*.log
+qemu.log
+qemu_withserial.log
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# editor files
+*.swp
+*~
+.vscode/
+.idea/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# OS files
+.DS_Store
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf

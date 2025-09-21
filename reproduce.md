@@ -28,9 +28,8 @@ gdb-multiarch target.elf \
   -ex "check_crash inputs/seed_crash" \
   -ex "quit"
 
-### The Python controller writes the testcase to INPUT_ADDR, issues `monitor system_reset`,
-### and detects HardFault/illegal instruction/PC anomalies/timeout.
-### On detection it saves artefacts under `outputs/crashes/`.
+#### The Python controller writes the testcase to INPUT_ADDR, issues `monitor system_reset`,and detects HardFault/illegal instruction/PC anomalies/timeout.
+#### On detection it saves artefacts under `outputs/crashes/`.
 
 
 4) Inspect QEMU log:

@@ -12,8 +12,8 @@ $ echo -n 'CRASHME' > inputs/seed_crash
 
 3) Run reproduction (uses stdin harness)
 $ ./scripts/run_check.sh
-### Note: `scripts/run_check.sh` is a quick stdin smoke test (no GDB). It does not use
-### `scripts/gdb/crash_checker.py` and does not save crash artefacts.
+Note: `scripts/run_check.sh` is a quick stdin smoke test (no GDB). It does not use
+ `scripts/gdb/crash_checker.py` and does not save crash artefacts.
 
 ### Automated crash detection via GDB scripting
 

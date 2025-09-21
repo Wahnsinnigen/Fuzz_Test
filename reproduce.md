@@ -12,8 +12,8 @@ $ echo -n 'CRASHME' > inputs/seed_crash
 
 3) Run reproduction (uses stdin harness)
 $ ./scripts/run_check.sh
-# Note: `scripts/run_check.sh` is a quick stdin smoke test (no GDB). It does not use
-# `scripts/gdb/crash_checker.py` and does not save crash artefacts.
+### Note: `scripts/run_check.sh` is a quick stdin smoke test (no GDB). It does not use
+### `scripts/gdb/crash_checker.py` and does not save crash artefacts.
 
 ### Automated crash detection via GDB scripting
 
@@ -27,9 +27,9 @@ gdb-multiarch target.elf \
   -ex "check_crash inputs/seed_crash" \
   -ex "quit"
 
-# The Python controller writes the testcase to INPUT_ADDR, issues `monitor system_reset`,
-# and detects HardFault/illegal instruction/PC anomalies/timeout.
-# On detection it saves artefacts under `outputs/crashes/`.
+### The Python controller writes the testcase to INPUT_ADDR, issues `monitor system_reset`,
+### and detects HardFault/illegal instruction/PC anomalies/timeout.
+### On detection it saves artefacts under `outputs/crashes/`.
 
 
 4) Inspect QEMU log:
